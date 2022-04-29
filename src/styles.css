@@ -1,0 +1,33 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.3);
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 10rem;
+    text-shadow: 1px 1px black;
+    background: linear-gradient(25deg, rgb(135, 132, 132), rgb(234, 231, 231))
+  }
+
+  .card .quote {
+    margin-bottom: 10px;
+    font-size: 22px;
+    
+  }
+
+  .card .author {
+    text-align: right;
+    margin-right: 1rem;
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  .card .button {
+    margin-left: 40rem;
+  }
