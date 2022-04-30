@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import quotes from "../quotes.json";
 
-const colors = ["red", "lightblue", "yellow", "lightgreen", "lightcoral"] 
+const colors = ["rgb(90, 10, 10)", "lightblue", "rgb(198, 198, 22)", "lightgreen", "lightcoral", "purple", "darkorange", "rgb(90, 68, 41)"] 
 
 const QuoteBox = () => {
 
