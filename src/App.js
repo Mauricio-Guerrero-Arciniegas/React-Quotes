@@ -55,7 +55,7 @@ function App() {
         <div className="city">{weather.name}</div>
         <div className="country">{weather.sys?.country}</div>
         <div className="temp">
-          {isCelsius ? `${Math.round(weather.main?.temp)}°C`: `${Math.round(weather.main?.temp*(9/5)+32)} °F`}
+          {isCelsius ? `${Math.round(temp)}°C`: `${Math.round(temp*(9/5)+32)} °F`}
           </div>
         <div className="humidity">Humidity: {weather.main?.humidity} %</div>
         <div className="speed">Wind Speed: {weather.wind?.speed} (m/s)</div>
